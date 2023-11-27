@@ -1,0 +1,12 @@
+/* CSS Reset*/
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
+    margin: 10px; 
+    padding: 0;
+    border: 0;
+}
+
+.code{
+    margin: 10px;
+    display: block;
+    width: 100%;
+}

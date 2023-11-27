@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Translator</a>
+        <a href="index.html">Meal Generator</a>
+        <a href="index.html">Sleep tracker</a>
+    </nav>
+    <h1>Code Translator</h1>
+    <div id="input">
+        <form>
+            <label>Input Language<br>
+                <select id="inCodeID" name="inCodeID"> <br>
+                    <option>Matlab</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>C</option>
+                    <option>C++</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>Code<br><textarea name="inputCode" class="code" id="inputCode" rows="15" placeholder="Enter code to translate"></textarea></label>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+
+    <br>
+
+    <div id="output">
+        <form>
+            <label>Output Language<br>
+                <select id="outCodeID" name="outCodeID"> <br>
+                    <option>Matlab</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>C</option>
+                    <option>C++</option>
+                    
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>Code<br><textarea name="outputCode" class="code" id="outputCode" rows="15" cols="30" placeholder="Translated code apears here"></textarea></label>
+        </form>
+    </div>
+</body>
+</html>
